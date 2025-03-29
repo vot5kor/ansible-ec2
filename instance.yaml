@@ -26,9 +26,9 @@
       image_id: "{{ image_id }}"
       region: "{{ region }}"
     loop:
-    - mysql
-    - backend
-    - frontend
+    - mysql1
+    - backend1
+    - frontend1
     register: ec2_info
     
   - name: print ec2_info output
